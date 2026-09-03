@@ -6,6 +6,8 @@ import (
 	"github.com/MIXThanakorn/go-lecture04/myarray"
 	"github.com/MIXThanakorn/go-lecture04/myfunction"
 	"github.com/MIXThanakorn/go-lecture04/mymap"
+	"github.com/MIXThanakorn/go-lecture04/mypointer"
+	"github.com/MIXThanakorn/go-lecture04/mystruck"
 )
 
 func main() {
@@ -15,4 +17,6 @@ func main() {
 	myfunction.ShowDTI()
 	myarray.MyArray1()
 	mymap.MyMap1()
+	mypointer.MyPointerA()
+	mystruck.MyDtiStudent()
 }
